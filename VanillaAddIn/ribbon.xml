@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" loadImage="GetImage">
+  <ribbon>
+    <tabs>
+
+      <!--<tab id="tabCustom" label="MLO">-->
+      <tab idMso="TabHome">
+        <group id="groupSetup" label="JTools">
+          <button id="buttonHello" label="Export to MLO" size="normal" screentip="Create entries in MyLifeOrganized for tagged ToDo items" onAction="CreateMLOTasks" image="MLO.png"/>
+          <button id="buttonRenamePage" label="Rename Page" size="normal" screentip="Rename page to Section : Date" onAction="SetTitleTS" image="ReTitle.png"/>
+          <button id="buttonClipboard" label="OneNote Outline" size="normal" screentip="Format clipboard content for OneNote" onAction="CreateOutline" image="Outline.png"/>
+          <button id="buttonSetup" label="Setup" size="normal" screentip="Setup configuration for MyLifeOrganized integration" onAction="showSetup" image="setup_icon.png"/>
+        </group>
+
+
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
