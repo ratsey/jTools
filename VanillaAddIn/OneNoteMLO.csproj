@@ -7,8 +7,8 @@
     <ProjectGuid>{D874E185-08FE-48C5-BADE-0FE84060C978}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyApplication.VanillaAddIn</RootNamespace>
-    <AssemblyName>MyApplication.VanillaAddIn</AssemblyName>
+    <RootNamespace>JTools.MLO</RootNamespace>
+    <AssemblyName>JTools.MLO</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -90,6 +90,13 @@
   <ItemGroup>
     <Compile Include="CCOMStreamWrapper.cs" />
     <Compile Include="AddIn.cs" />
+    <Compile Include="GoalPeriod.cs" />
+    <Compile Include="LeadTime.cs" />
+    <Compile Include="MLOTask.cs" />
+    <Compile Include="MLOTaskGeneral.cs" />
+    <Compile Include="MLOTaskProperty.cs" />
+    <Compile Include="MLOTaskTimingAndReminder.cs" />
+    <Compile Include="MLTaskReview.cs" />
     <Compile Include="OneNoteProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -97,6 +104,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ReviewPeriod.cs" />
     <Compile Include="Setup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +151,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OneNoteMLO.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

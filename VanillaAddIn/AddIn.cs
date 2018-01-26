@@ -22,7 +22,8 @@ using Microsoft.Office.Core;
 using Microsoft.Office.Interop.OneNote;
 using Microsoft.Win32;
 using System.Linq;
-using MyApplication.VanillaAddIn.Properties;
+using JTools.MLO.Properties;
+//using MyApplication.VanillaAddIn.Properties;
 //using MyApplication.MLOAddIn.Utilities;
 //using Application = Microsoft.Office.Interop.OneNote.Application;  // Conflicts with System.Windows.Forms
 
@@ -60,7 +61,7 @@ namespace JTools.MLO
 		/// <returns></returns>
 		public string GetCustomUI(string RibbonID)
 		{
-			return MyApplication.VanillaAddIn.Properties.Resources.ribbon;
+			return JTools.MLO.Properties.Resources.ribbon;
 		}
 
 		public void OnAddInsUpdate(ref Array custom)
