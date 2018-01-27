@@ -11,7 +11,6 @@ namespace JTools.MLO
         private MLOTaskGeneral _MLOTaskGeneral = new MLOTaskGeneral();
 
         public string Title { get; set; }
-
         public string Note { get; set; } 
 
         public MLOTaskGeneral General

@@ -7,68 +7,13 @@ namespace JTools.MLO
 {
     public class MLOTaskTimingAndReminder : MLOTaskProperty
     {
-        public int isInheritParentDates
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int hasStartDate
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int StartDate
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int hasDueDate
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int DueDateTime
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public LeadTime LeadTime
-        {
-            get => default(LeadTime);
-            set
-            {
-            }
-        }
-
-        public int useTime
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int isLockPeriod
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
+        public bool InheritParentDates { get; set; }
+        public bool HasStartDate { get; set; }
+        public DateTime StartDate { get; set; }
+        public bool HasDueDate { get; set; }
+        public DateTime DueDateTime { get; set; }
+        public LeadTime LeadTime { get; set; }
+        public bool UseTime { get; set; }
+        public int IsLockPeriod { get; set; }
     }
 }

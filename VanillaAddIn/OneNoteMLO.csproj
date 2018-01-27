@@ -94,6 +94,7 @@
     <Compile Include="LeadTime.cs" />
     <Compile Include="MLOTask.cs" />
     <Compile Include="MLOTaskGeneral.cs" />
+    <Compile Include="MLOTaskProject.cs" />
     <Compile Include="MLOTaskProperty.cs" />
     <Compile Include="MLOTaskTimingAndReminder.cs" />
     <Compile Include="MLTaskReview.cs" />

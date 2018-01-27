@@ -11,14 +11,14 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="JTools.MLO.MLOTaskProperty">
-    <Position X="9.25" Y="3.75" Width="1.5" />
+    <Position X="9" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MLOTaskProperty.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JTools.MLO.MLOTaskGeneral">
-    <Position X="5.5" Y="2.5" Width="1.5" />
+    <Position X="5" Y="2.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAABEAAAACAAAALAAAAAAAAQAAAAABCBAQ=</HashCode>
       <FileName>MLOTaskGeneral.cs</FileName>
@@ -28,7 +28,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="JTools.MLO.MLTaskReview">
-    <Position X="3" Y="5.5" Width="1.5" />
+    <Position X="9" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAA=</HashCode>
       <FileName>MLTaskReview.cs</FileName>
@@ -47,6 +47,13 @@
       <Property Name="LeadTime" />
     </ShowAsAssociation>
   </Class>
+  <Class Name="JTools.MLO.MLOTaskProject">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MLOTaskProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="JTools.MLO.GoalPeriod">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -55,7 +62,7 @@
     </TypeIdentifier>
   </Enum>
   <Enum Name="JTools.MLO.ReviewPeriod">
-    <Position X="0.75" Y="4.25" Width="1.5" />
+    <Position X="11.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEQAAAAAAAAAE=</HashCode>
       <FileName>ReviewPeriod.cs</FileName>

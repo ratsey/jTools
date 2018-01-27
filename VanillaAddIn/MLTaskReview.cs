@@ -7,36 +7,12 @@ namespace JTools.MLO
 {
     public class MLTaskReview : MLOTaskProperty
     {
-        public int NextReview
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
+        private ReviewPeriod _reviewEveryPeriod = ReviewPeriod.Weeks;
 
-        public int hasNextReviewDate
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
+        public DateTime NextReviewDate { get; set; }
+        public bool HasNextReviewDate { get; set; }
+        public int ReviewEveryDuration { get; set; }
 
-        public int ReviewEveryDuration
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public ReviewPeriod ReviewEveryPeriod
-        {
-            get => ReviewPeriod.Weeks;
-            set
-            {
-            }
-        }
+        public ReviewPeriod ReviewEveryPeriod { get => _reviewEveryPeriod; set => _reviewEveryPeriod = value; }
     }
 }
