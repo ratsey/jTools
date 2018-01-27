@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace JTools.MLO
 {
@@ -13,6 +12,7 @@ namespace JTools.MLO
         public bool HasNextReviewDate { get; set; }
         public int ReviewEveryDuration { get; set; }
 
+        [JsonConverter(typeof(StringEnumConverter))]
         public ReviewPeriod ReviewEveryPeriod { get => _reviewEveryPeriod; set => _reviewEveryPeriod = value; }
     }
 }

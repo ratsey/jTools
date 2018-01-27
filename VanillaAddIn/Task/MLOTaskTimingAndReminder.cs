@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System;
 
 namespace JTools.MLO
 {
@@ -12,7 +11,10 @@ namespace JTools.MLO
         public DateTime StartDate { get; set; }
         public bool HasDueDate { get; set; }
         public DateTime DueDateTime { get; set; }
+
+        [JsonConverter(typeof(StringEnumConverter))]
         public LeadTime LeadTime { get; set; }
+
         public bool UseTime { get; set; }
         public int IsLockPeriod { get; set; }
     }

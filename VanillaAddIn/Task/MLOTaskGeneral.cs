@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace JTools.MLO
 {
@@ -20,7 +19,10 @@ namespace JTools.MLO
 
         public int Importance { get => _importance; set => _importance = value; }
         public int Urgency { get => _urgency; set => _urgency = value; }
+
+        [JsonConverter(typeof(StringEnumConverter))]
         public GoalPeriod GoalPeriod { get => _goalPeriod; set => _goalPeriod = value; }
+
         public string TextTag { get; set; }
         public bool Folder { get; set; }
         public bool HideBranchInToDo { get; set; }
