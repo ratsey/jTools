@@ -90,14 +90,14 @@
   <ItemGroup>
     <Compile Include="CCOMStreamWrapper.cs" />
     <Compile Include="AddIn.cs" />
-    <Compile Include="GoalPeriod.cs" />
-    <Compile Include="LeadTime.cs" />
-    <Compile Include="MLOTask.cs" />
-    <Compile Include="MLOTaskGeneral.cs" />
-    <Compile Include="MLOTaskProject.cs" />
-    <Compile Include="MLOTaskProperty.cs" />
-    <Compile Include="MLOTaskTimingAndReminder.cs" />
-    <Compile Include="MLTaskReview.cs" />
+    <Compile Include="Task\GoalPeriod.cs" />
+    <Compile Include="Task\LeadTime.cs" />
+    <Compile Include="Task\MLOTask.cs" />
+    <Compile Include="Task\MLOTaskGeneral.cs" />
+    <Compile Include="Task\MLOTaskProject.cs" />
+    <Compile Include="Task\MLOTaskProperty.cs" />
+    <Compile Include="Task\MLOTaskTimingAndReminder.cs" />
+    <Compile Include="Task\MLTaskReview.cs" />
     <Compile Include="OneNoteProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

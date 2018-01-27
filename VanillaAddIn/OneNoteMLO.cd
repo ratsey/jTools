@@ -4,7 +4,7 @@
     <Position X="2.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAAACAAAAAAAIAAAAAAAAEAAAA=</HashCode>
-      <FileName>MLOTask.cs</FileName>
+      <FileName>Task\MLOTask.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="General" />
@@ -14,14 +14,14 @@
     <Position X="9" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MLOTaskProperty.cs</FileName>
+      <FileName>Task\MLOTaskProperty.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JTools.MLO.MLOTaskGeneral">
     <Position X="5" Y="2.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAABEAAAACAAAALAAAAAAAAQAAAAABCBAQ=</HashCode>
-      <FileName>MLOTaskGeneral.cs</FileName>
+      <FileName>Task\MLOTaskGeneral.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="GoalPeriod" />
@@ -30,8 +30,8 @@
   <Class Name="JTools.MLO.MLTaskReview">
     <Position X="9" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAA=</HashCode>
-      <FileName>MLTaskReview.cs</FileName>
+      <HashCode>AAAAAACEAAgAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Task\MLTaskReview.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="ReviewEveryPeriod" />
@@ -40,8 +40,8 @@
   <Class Name="JTools.MLO.MLOTaskTimingAndReminder">
     <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgAAgAAAAAAQAAAAAAAAAEAAAAAAAAAAAIAEAAIBA=</HashCode>
-      <FileName>MLOTaskTimingAndReminder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAgAAAAAACAAAAAIEEABIAA=</HashCode>
+      <FileName>Task\MLOTaskTimingAndReminder.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="LeadTime" />
@@ -50,15 +50,15 @@
   <Class Name="JTools.MLO.MLOTaskProject">
     <Position X="5.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
-      <FileName>MLOTaskProject.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Task\MLOTaskProject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="JTools.MLO.GoalPeriod">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAIEAAAA=</HashCode>
-      <FileName>GoalPeriod.cs</FileName>
+      <FileName>Task\GoalPeriod.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="JTools.MLO.ReviewPeriod">
@@ -72,7 +72,7 @@
     <Position X="11.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAQAAAAAAAAAAAAAAgUBAAAAAAAAAEAAAE=</HashCode>
-      <FileName>LeadTime.cs</FileName>
+      <FileName>Task\LeadTime.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
